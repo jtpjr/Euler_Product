@@ -1,7 +1,7 @@
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class Artin_Constant_test_double {
+public class Artin_Constant_test {
     public static void main(String[] args) throws IOException {
         Prime_Calculator primeCalc = new Prime_Calculator();
         ArrayList<Integer> primes = primeCalc.getPrimes();
