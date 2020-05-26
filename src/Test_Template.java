@@ -59,7 +59,7 @@ public class Test_Template {
                         
                     }
                     
-                    if (i == 1000000) {
+                    if (i == 9000000) {
                         secondaryTest2 = Double.parseDouble(decimalFormat.format(answer.doubleValue()));
                         
                         if (Math.abs(secondaryTest1 - secondaryTest2) > 0.1) {
